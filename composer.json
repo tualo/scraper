@@ -12,11 +12,14 @@
   "autoload": {
     "psr-4": {
       "Tualo\\Office\\Scraper\\": "src/"
-    }
+    },
+    "files": [
+      "src/functions.php"
+    ]
   },
   "minimum-stability": "dev",
   "require": {
     "tualo/bsc": "^1.4.0"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
