@@ -1,0 +1,22 @@
+{
+  "name": "tualo/scraper",
+  "description": "scraper for tualo office",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hoffmann",
+      "email": "thomas.hoffmann@tualo.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tualo\\Office\\Scraper\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "tualo/bsc": "^1.4.0"
+  },
+  "version": "1.0.1"
+}
